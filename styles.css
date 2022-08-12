@@ -1,0 +1,122 @@
+@import url(https://fonts.bunny.net/css?family=alatsi:400);
+@import url(https://fonts.bunny.net/css?family=b612-mono:400);
+@import url(https://fonts.bunny.net/css?family=yuji-syuku:400);
+
+
+body {
+    margin: 0 10%;
+    color: #0a100d;
+    background-color: #FFEBCD;
+}
+
+h1 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 36px;
+    color: #0a100d;
+}
+
+h3 {
+    font-family: 'Yuki Syuku', serif;
+    font-size: 24px;
+    color: #0a100d;
+}
+
+p {
+    font-family: 'B612', monospace;
+    font-size: 16px;
+}
+
+.content-box {
+    border: 2px solid black;
+    padding: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+} 
+
+/* colour section */
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.black {
+    background-color: #0a100d;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #d6d5c9;
+}
+
+.slate {
+    background-color: #b9baa3;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #0a100d;
+}
+
+.grey {
+    background-color: #d6d5c9;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #0a100d;
+}
+
+.green {
+    background-color: #6a994e;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #d6d5c9;
+}
+
+.almond {
+    background-color: #FFEBCD;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #0a100d;
+}
+
+
+/* font section */
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    margin: 10px;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.monospace {
+    font-family: 'B612 Mono', monospace;
+}
+
+.serif {
+    font-family: 'Yuji Syuku', serif;
+}
+
+.sans-serif {
+    font-family: 'Alatsi', sans-serif;
+}
+
+.font-label {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style:italic;
+}
+.bold {
+    font-weight: 900;
+}
+
+.text-panel {
+    width: 50%;
+    text-align: left;
+}
