@@ -54,6 +54,10 @@ p {
     min-height: 50px;
     padding: 5px;
     font-family: 'B612 Mono', monospace;
+    border: 1px solid black;
+}
+.color-panel:hover {
+    border: 1px solid red;
 }
 
 .black {
