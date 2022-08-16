@@ -19,10 +19,10 @@ h3 {
     font-family: 'Yuki Syuku', serif;
     font-size: 24px;
     color: #0a100d;
+    font-weight: 500;
 }
 
 p {
-    font-family: 'B612', monospace;
     font-size: 16px;
 }
 
@@ -53,6 +53,7 @@ p {
     margin: 10px;
     min-height: 50px;
     padding: 5px;
+    font-family: 'B612 Mono', monospace;
 }
 
 .black {
