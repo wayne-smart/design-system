@@ -32,6 +32,16 @@ p {
     margin-bottom: 10px;
     align-items: center;
     background-color: whitesmoke;
+    filter: drop-shadow(5px 5px 0 #0a100d);
+} 
+.content-box:hover {
+    border: 2px solid black;
+    padding: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    filter: drop-shadow(5px 5px 0 #0a100d);
+    /* filter: invert(); */
 } 
 
 /* colour section */
