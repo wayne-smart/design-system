@@ -135,3 +135,13 @@ p {
     width: 50%;
     text-align: left;
 }
+
+/* special bits */
+
+.zoom {
+    transition: transform 0.1s; 
+  }
+  
+  .zoom:hover {
+    transform: scale(1.03); 
+  }
